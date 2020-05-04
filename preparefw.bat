@@ -1,0 +1,2 @@
+java  -jar ..\ANXRealPortTools\apktool.jar if -p ..\ANXRealPortTools\RealFrameworks .\orig\RealFrameworks\framework-res.apk
+java  -jar ..\ANXRealPortTools\apktool.jar if -p ..\ANXRealPortTools\RealFrameworks .\orig\RealFrameworks\oppo-framework-res.apk

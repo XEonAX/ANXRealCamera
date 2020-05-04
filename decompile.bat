@@ -1,0 +1,1 @@
+java  -jar ..\ANXRealPortTools\apktool.jar d -p ..\ANXRealPortTools\RealFrameworks -f -b -o .\src\ANXCamera .\orig\OppoCamera.apk

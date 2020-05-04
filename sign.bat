@@ -1,0 +1,2 @@
+java  -jar ..\ANXRealPortTools\signapk.jar ..\ANXRealPortTools\testkey.x509.pem ..\ANXRealPortTools\testkey.pk8 .\out\ANXCamera-Unsigned.apk .\out\ANXCamera-Unaligned.apk
+..\ANXRealPortTools\zipalign.exe -f 4  .\out\ANXCamera-Unaligned.apk .\out\ANXCamera.apk

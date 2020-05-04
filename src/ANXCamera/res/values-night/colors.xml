@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_list_selectableItem_background_color">#ff000000</color>
+    <color name="setting_pref_rotate_btn_gray">#66ffffff</color>
+    <color name="video_view_line_bg_color">#33ffffff</color>
+</resources>

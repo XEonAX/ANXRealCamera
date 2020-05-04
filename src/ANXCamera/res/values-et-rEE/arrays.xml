@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="color_solor_mounth">
+        <item>Jaanuar</item>
+        <item>Veebruar</item>
+        <item>Märts</item>
+        <item>Aprill</item>
+        <item>Mai</item>
+        <item>Juuni</item>
+        <item>Juuli</item>
+        <item>August</item>
+        <item>September</item>
+        <item>Oktoober</item>
+        <item>November</item>
+        <item>Detsember</item>
+    </string-array>
+    <string-array name="oppo_time_picker_ampm">
+        <item>a. m.</item>
+        <item>p. m.</item>
+    </string-array>
+</resources>

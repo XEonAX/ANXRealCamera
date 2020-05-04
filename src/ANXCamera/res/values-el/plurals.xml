@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="sticker_recycle_bin_title_has_selected">
+        <item quantity="other">Επιλέχθηκαν %1$d Sticker</item>
+        <item quantity="one">Επιλέχθηκε %1$d Sticker</item>
+    </plurals>
+</resources>

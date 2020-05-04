@@ -1,0 +1,22 @@
+package androidx.viewpager2.adapter;
+
+import android.os.Handler;
+import androidx.lifecycle.e;
+import androidx.lifecycle.f;
+import androidx.lifecycle.h;
+
+class FragmentStateAdapter$5 implements f {
+
+    /* renamed from: a  reason: collision with root package name */
+    final /* synthetic */ Handler f1055a;
+
+    /* renamed from: b  reason: collision with root package name */
+    final /* synthetic */ Runnable f1056b;
+
+    public void a(h hVar, e.a aVar) {
+        if (aVar == e.a.ON_DESTROY) {
+            this.f1055a.removeCallbacks(this.f1056b);
+            hVar.b().b(this);
+        }
+    }
+}

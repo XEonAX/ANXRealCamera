@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:paddingTop="@dimen/support_preference_widget_focus_jump_padding_top" android:paddingBottom="@dimen/support_preference_widget_focus_jump_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="end|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24.0dip">
+        <TextView android:gravity="left" android:id="@id/color_statusText1" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/color_preference_status_text_max_width" android:textDirection="locale" />
+        <TextView android:gravity="left" android:id="@id/color_statusText2" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/color_preference_status_text_max_width" android:textDirection="locale" style="@style/PreferenceStatusText" />
+        <TextView android:gravity="left" android:id="@id/color_statusText3" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/color_preference_status_text_max_width" android:textDirection="locale" />
+    </LinearLayout>
+    <ImageView android:id="@id/color_preference_widget_jump" android:background="@drawable/color_btn_next" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/support_preference_image_padding_start" />
+</LinearLayout>

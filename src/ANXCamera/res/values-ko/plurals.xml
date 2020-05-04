@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="sticker_recycle_bin_title_has_selected">
+        <item quantity="other">스티커 %1$d개 선택됨</item>
+        <item quantity="one">스티커 %1$d개 선택됨</item>
+    </plurals>
+</resources>

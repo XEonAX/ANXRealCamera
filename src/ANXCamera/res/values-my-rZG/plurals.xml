@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="sticker_recycle_bin_title_has_selected">
+        <item quantity="other">စတစ္ကာ %1$d ခု ေရြးထားသည္</item>
+        <item quantity="one">စတစ္ကာ %1$d ခု ေရြးထားသည္</item>
+    </plurals>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="zoom_seek_line_bar_height">100.0dip</dimen>
+    <dimen name="control_panel_button_height">200.0dip</dimen>
+    <dimen name="control_panel_layout_height">228.0dip</dimen>
+    <dimen name="menu_panel_layout_height">72.0dip</dimen>
+    <dimen name="top_bar_layout_height">72.0dip</dimen>
+    <dimen name="bubble_close_margin_left">12.0dip</dimen>
+    <dimen name="bubble_text_line_spacing">4.0dip</dimen>
+    <dimen name="bubble_text_max_width">282.0dip</dimen>
+    <dimen name="bubble_text_size">14.0dip</dimen>
+    <dimen name="control_panel_margin_bottom">7.0dip</dimen>
+    <dimen name="control_panel_margin_bottom_virtual_key">7.0dip</dimen>
+    <dimen name="control_panel_third_video_margin_bottom">7.0dip</dimen>
+    <dimen name="control_panel_third_video_margin_bottom_virtual_key">7.0dip</dimen>
+    <dimen name="ear_screen_menu_item_offset">12.0dip</dimen>
+    <dimen name="ear_screen_menu_offset">14.0dip</dimen>
+    <dimen name="head_line_margin_top">8.0dip</dimen>
+    <dimen name="record_time_margin_bottom">179.32999dip</dimen>
+    <dimen name="record_time_margin_bottom_third_party">178.66998dip</dimen>
+    <dimen name="shutter_button_margin_bottom">76.0dip</dimen>
+    <dimen name="switch_camera_button_margin_bottom">85.0dip</dimen>
+    <dimen name="thumbnail_margin_bottom">89.0dip</dimen>
+</resources>

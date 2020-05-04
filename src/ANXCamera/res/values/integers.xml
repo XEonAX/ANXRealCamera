@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="colorAppBarElevationAnimDuration">150</integer>
+    <integer name="color__keyboard_type_security">1</integer>
+    <integer name="color__keyboard_type_unlock">2</integer>
+    <integer name="config_tooltipAnimTime">150</integer>
+    <integer name="effect_filter_enter_translate_width">261</integer>
+    <integer name="effect_filter_exit_translate_width">96</integer>
+    <integer name="main_btn_default_angleAnimationDurationMillis">2000</integer>
+    <integer name="main_btn_default_miniSweepAngle">30</integer>
+    <integer name="main_btn_default_sweepAnimationDuration">900</integer>
+    <integer name="oppo_animation_time_flashing">66</integer>
+    <integer name="oppo_animation_time_loop">1350</integer>
+    <integer name="oppo_animation_time_moment">100</integer>
+    <integer name="oppo_animation_time_move">330</integer>
+    <integer name="oppo_animation_time_move_fast">240</integer>
+    <integer name="oppo_animation_time_move_slow">420</integer>
+    <integer name="oppo_animation_time_move_veryfast">150</integer>
+    <integer name="oppo_animation_time_move_veryslow">540</integer>
+    <integer name="oppo_touchsearch_popupwin_default_top_mincoordinate">60</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <integer name="sticker_recycle_bin_num_columns">5</integer>
+    <integer name="support_abc_config_activityDefaultDur">220</integer>
+    <integer name="support_abc_config_activityShortDur">150</integer>
+</resources>

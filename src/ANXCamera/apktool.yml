@@ -1,0 +1,47 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: OppoCamera.apk
+compressionType: false
+doNotCompress:
+- dex
+- arsc
+- lic
+- jpg
+- so
+- png
+- ogg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '28'
+  targetSdkVersion: '28'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  LICENSE-junit.txt: '8'
+  rotator.rs: '8'
+  junit/runner/logo.gif: '0'
+  junit/runner/smalllogo.gif: '0'
+  com/oppo/gallery3d/predecode/IPreDecode.aidl: '8'
+  google/protobuf/any.proto: '8'
+  google/protobuf/api.proto: '8'
+  google/protobuf/descriptor.proto: '8'
+  google/protobuf/duration.proto: '8'
+  google/protobuf/empty.proto: '8'
+  google/protobuf/field_mask.proto: '8'
+  google/protobuf/source_context.proto: '8'
+  google/protobuf/struct.proto: '8'
+  google/protobuf/timestamp.proto: '8'
+  google/protobuf/type.proto: '8'
+  google/protobuf/wrappers.proto: '8'
+  google/protobuf/compiler/plugin.proto: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.1-661f92-SNAPSHOT
+versionInfo:
+  versionCode: '40026'
+  versionName: 3.1.0

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/camera_slogan_title" android:key="camera_setting_slogan_root_preference"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:coloros="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/color_preference_header" android:selectable="false" />
+    <com.color.support.preference.ColorPreferenceCategory android:key="pref_device_watermark_function" coloros:isFirstCategory="true">
+        <com.android.ui.menu.CameraSwitchPreference android:persistent="true" android:title="@string/camera_slogan_device" android:key="pref_slogan_device_key" android:defaultValue="@string/camera_slogan_default_value" />
+        <com.color.support.preference.ColorEditTextPreference android:persistent="true" android:title="@string/slogan_owner_name" android:key="pref_slogan_owner_key" android:dialogTitle="@string/slogan_owner_name" android:dialogMessage="@string/camera_slogan_owner_summary_v7" android:positiveButtonText="@string/beauty3d_save" android:negativeButtonText="@string/beauty3d_cancel" />
+    </com.color.support.preference.ColorPreferenceCategory>
+    <com.color.support.preference.ColorPreferenceCategory android:key="pref_time_watermark_function">
+        <com.android.ui.menu.CameraSwitchPreference android:persistent="true" android:title="@string/camera_slogan_time" android:key="pref_slogan_time_key" android:defaultValue="@string/camera_slogan_default_value" />
+    </com.color.support.preference.ColorPreferenceCategory>
+    <com.color.support.preference.ColorPreferenceCategory android:key="pref_location_watermark_function">
+        <com.android.ui.menu.CameraSwitchPreference android:persistent="true" android:title="@string/camera_slogan_location" android:key="pref_slogan_location_key" android:summary="@string/camera_slogan_location_tip" android:defaultValue="@string/camera_slogan_default_value" />
+    </com.color.support.preference.ColorPreferenceCategory>
+</androidx.preference.PreferenceScreen>

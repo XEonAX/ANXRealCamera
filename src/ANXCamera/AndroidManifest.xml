@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:compileSdkVersion="29" 
+    android:compileSdkVersionCodename="10" 
+    package="com.oppo.camera" 
+    platformBuildVersionCode="29" 
+    platformBuildVersionName="10">
+    <original-package android:name="com.oppo.camera"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.MANAGE_APP_OPS_MODES"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="com.oppo.gallery3d.permission.PROVIDER"/>
+    <uses-permission android:name="com.oppo.permission.OCLICK"/>
+    <uses-permission android:name="oppo.permission.APP_SETTING"/>
+    <uses-permission android:name="android.permission.CONTROL_KEYGUARD"/>
+    <uses-permission android:name="oppo.permission.OPPO_COMPONENT_SAFE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.UPDATE_DEVICE_STATS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.CONTROL_DISPLAY_BRIGHTNESS"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.MANAGE_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.STATUS_BAR_SERVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="heytap.speechassist.permission.FLOAT_WINDOW_STATUS"/>
+    <supports-screens android:anyDensity="true" 
+        android:largeScreens="true" 
+        android:normalScreens="true" 
+        android:smallScreens="false"/>
+    <application android:allowBackup="false" 
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory" 
+        android:icon="@drawable/ic_launcher_camera" 
+        android:label="@string/camera_app_name" 
+        android:largeHeap="true" 
+        android:logo="@drawable/ic_launcher_camera" 
+        android:maxAspectRatio="2.2" 
+        android:name="com.oppo.camera.MyApplication" 
+        android:supportsRtl="true">
+        <meta-data android:name="versionCommit" 
+            android:value="_4f4a020"/>
+        <meta-data android:name="versionDate" 
+            android:value="200429"/>
+        <meta-data android:name="AppCode" 
+            android:value="20009"/>
+        <uses-library android:name="coloros.support" 
+            android:required="true"/>
+        <activity android:clearTaskOnLaunch="true" 
+            android:configChanges="keyboard|keyboardHidden|mcc|mnc|navigation|orientation|screenSize|uiMode" 
+            android:label="@string/camera_app_name" 
+            android:launchMode="singleTop" 
+            android:name="com.oppo.camera.Camera" 
+            android:resizeableActivity="false" 
+            android:screenOrientation="portrait" 
+            android:showWhenLocked="true" 
+            android:taskAffinity="com.oppo.camera" 
+            android:theme="@style/ThemeCamera" 
+            android:visibleToInstantApps="true" 
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.IMAGE_CAPTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.IMAGE_CAPTURE_SECURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.STILL_IMAGE_CAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.VOICE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.STILL_IMAGE_CAMERA_SECURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.oppo.action.CAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.oppo.action.VIDEO_CAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="android.app.shortcuts" 
+                android:resource="@xml/shortcuts"/>
+            <meta-data android:name="com.android.keyguard.layout" 
+                android:resource="@layout/start_fake_layout"/>
+        </activity>
+        <activity android:exported="false" 
+            android:icon="@drawable/ic_camera_setting" 
+            android:launchMode="singleTop" 
+            android:name="com.oppo.camera.ui.menu.setting.CameraSettingActivity" 
+            android:permission="oppo.permission.OPPO_COMPONENT_SAFE" 
+            android:resizeableActivity="true" 
+            android:screenOrientation="portrait" 
+            android:showWhenLocked="true" 
+            android:theme="@style/AppNoTitleTheme.PreferenceFragment">
+            <intent-filter>
+                <action android:name="oppo.intent.action.APP_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.oppo.camera.action.SETTING_MENU"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.APP_PRIORITY" 
+                android:value="30010"/>
+        </activity>
+        <activity android:enabled="true" 
+            android:excludeFromRecents="true" 
+            android:label="@string/camera_slogan_title" 
+            android:name="com.oppo.camera.ui.menu.setting.CameraSloganSettingActivity" 
+            android:screenOrientation="portrait" 
+            android:showWhenLocked="true" 
+            android:theme="@style/AppNoTitleTheme.PreferenceFragment" 
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="oppo.intent.action.APP_SLOGAN_SETTING"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="true" 
+            android:excludeFromRecents="true" 
+            android:label="@string/camera_setting_video_ratio" 
+            android:name="com.oppo.camera.ui.menu.setting.CameraVideoRatioSettingActivity" 
+            android:screenOrientation="portrait" 
+            android:showWhenLocked="true" 
+            android:theme="@style/AppNoTitleTheme.PreferenceFragment">
+            <intent-filter>
+                <action android:name="oppo.intent.action.APP_VIDEO_RATIO_SETTING"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.oppo.camera.CameraButtonIntentReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.CAMERA_BUTTON"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.oppo.camera.update.UpdateReceiver" 
+            android:permission="oppo.permission.OPPO_COMPONENT_SAFE">
+            <intent-filter>
+                <action android:name="oppo.intent.action.ROM_UPDATE_CONFIG_SUCCESS"/>
+                <action android:name="oppo.intent.action.OPPO_OTA_UPDATE_SUCCESSED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:clearTaskOnLaunch="true" 
+            android:configChanges="keyboardHidden|orientation|screenSize|uiMode" 
+            android:icon="@drawable/ic_launcher_videocamera" 
+            android:label="@string/camera_video_name" 
+            android:launchMode="singleTop" 
+            android:name="com.oppo.camera.VideoCamera" 
+            android:screenOrientation="portrait" 
+            android:taskAffinity="com.oppo.camera" 
+            android:theme="@style/ThemeCamera" 
+            android:visibleToInstantApps="true" 
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.media.action.VIDEO_CAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.VIDEO_CAPTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.oppo.camera.debug.DebugBroadcastReceiver" 
+            android:permission="oppo.permission.OPPO_COMPONENT_SAFE">
+            <intent-filter>
+                <action android:name="com.oppo.engineermode.EngineerModeMain"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" 
+            android:exported="false" 
+            android:name="com.oppo.camera.Ipa.ImageProcessService" 
+            android:permission="oppo.permission.OPPO_COMPONENT_SAFE"/>
+        <provider android:authorities="com.oppo.camera.sticker.db.provider" 
+            android:exported="false" 
+            android:name="com.oppo.camera.sticker.provider.StickerProvider" 
+            android:permission="oppo.permission.OPPO_COMPONENT_SAFE"/>
+        <service android:exported="false" 
+            android:name="com.oppo.camera.sticker.download.thumbnail.ThumbDownloadService" 
+            android:permission="oppo.permission.OPPO_COMPONENT_SAFE"/>
+        <provider android:authorities="com.oppo.camera.providers.sticker.file.provider" 
+            android:exported="false" 
+            android:grantUriPermissions="true" 
+            android:name="com.oppo.camera.sticker.provider.FileProvider" 
+            android:permission="oppo.permission.OPPO_COMPONENT_SAFE">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" 
+                android:resource="@xml/provider_file_paths"/>
+        </provider>
+        <provider android:authorities="com.oppo.camera.entry" 
+            android:exported="true" 
+            android:name="com.oppo.camera.entry.EntryProvider"/>
+        <meta-data android:name="cx.xx.a.cx" 
+            android:value="1700020"/>
+        <meta-data android:name="cx.xx.a.vx" 
+            android:value="17.0.0.0.20"/>
+    </application>
+</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="vector" android:height="5.0dip" android:width="10.0dip" android:viewportWidth="30.0" android:viewportHeight="15.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="filter_2">
+        <group android:name="group" />
+        <group android:name="group_1" />
+        <group android:name="group_2" />
+    </group>
+    <path android:name="path" android:fillColor="#ff000000" android:pathData="M 0 15 L 13.4 0.7 C 14.3 -0.2 15.7 -0.3 16.6 0.6 L 16.7 0.7 L 30 15 L 0 15 Z" android:strokeWidth="1.0" />
+    <path android:name="path_1" android:fillColor="#ff191919" android:pathData="M 0 15 L 13.4 0.7 C 14.3 -0.2 15.7 -0.3 16.6 0.6 L 16.7 0.7 L 30 15 L 0 15 Z" android:strokeWidth="1.0" />
+</vector>

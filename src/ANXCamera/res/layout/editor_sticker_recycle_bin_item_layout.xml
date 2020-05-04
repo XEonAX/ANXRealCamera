@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/sticker_recycle_bin_grid_item_width" android:layout_height="@dimen/sticker_recycle_bin_grid_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oppo.camera.sticker.ui.StickerRecycleBinThumbnailView android:id="@id/sticker_thumbnail" android:clickable="false" android:layout_width="@dimen/sticker_recycle_bin_sticker_width" android:layout_height="@dimen/sticker_recycle_bin_sticker_height" android:scaleType="centerInside" android:layout_centerInParent="true" />
+    <CheckBox android:id="@id/sticker_check_box" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/sticker_delete_check_box" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>
