@@ -191,7 +191,7 @@ public class f {
     }
 
     /* JADX WARNING: type inference failed for: r4v0 */
-    /* JADX WARNING: type inference failed for: r4v1, types: [int, boolean] */
+    /* JADX WARNING: type inference failed for: r4v1, types: [boolean, int] */
     /* JADX WARNING: type inference failed for: r4v2 */
     /* JADX WARNING: Removed duplicated region for block: B:10:0x0051  */
     public static void a(float f, float f2, List<FaceItem> list, Resources resources, Context context) {

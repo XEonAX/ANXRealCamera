@@ -3,6 +3,8 @@
     android:compileSdkVersion="29" 
     android:compileSdkVersionCodename="10" 
     package="com.oppo.camera" 
+    android:versionCode="6" 
+    android:versionName="6.DistortedAgedGnu" 
     platformBuildVersionCode="29" 
     platformBuildVersionName="10">
     <original-package android:name="com.oppo.camera"/>
@@ -60,7 +62,7 @@
         <meta-data android:name="AppCode" 
             android:value="20009"/>
         <uses-library android:name="coloros.support" 
-            android:required="true"/>
+            android:required="false"/>
         <activity android:clearTaskOnLaunch="true" 
             android:configChanges="keyboard|keyboardHidden|mcc|mnc|navigation|orientation|screenSize|uiMode" 
             android:label="@string/camera_app_name" 

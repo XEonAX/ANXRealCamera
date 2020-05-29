@@ -379,7 +379,7 @@ public class h {
         return stickerItem != null && a(i2) && c(stickerItem);
     }
 
-    /* JADX WARNING: type inference failed for: r2v0, types: [byte[], java.io.InputStream] */
+    /* JADX WARNING: type inference failed for: r2v0, types: [java.io.InputStream, byte[]] */
     public static byte[] a(Context context, String str) {
         ? r2 = 0;
         if (TextUtils.isEmpty(str)) {

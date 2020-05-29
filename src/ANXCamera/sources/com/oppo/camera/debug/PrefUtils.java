@@ -27,7 +27,7 @@ public class PrefUtils {
     }
 
     public static boolean getIsTraceDebug(Context context) {
-        return PreferenceManager.getDefaultSharedPreferences(context).getBoolean(TRACE_DEBUG, false);
+        return PreferenceManager.getDefaultSharedPreferences(context).getBoolean(TRACE_DEBUG, true);
     }
 
     public static long getLastRequestTime(Context context) {
